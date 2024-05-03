@@ -11,7 +11,23 @@
     <!-- Naviagtion -->
     <nav>
       <p class="welcome">Login in to get started</p>
-      <img src="logo.png" alt="logo" />
+      <img src="logo.png" alt="logo" class="logo" />
+      <!-- input section -->
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+
+        <!-- input pin -->
+        <input
+          type="text"
+          placeholder="PIN"
+          class="login__input login__input--pin"
+        />
+        <button class="login__btn">&rarr;</button>
+      </form>
     </nav>
     <script type="module" src="js/main.js"></script>
   </body>
